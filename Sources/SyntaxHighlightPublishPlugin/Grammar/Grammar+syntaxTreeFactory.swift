@@ -62,6 +62,8 @@ private struct RuleSet: ExpressibleByDictionaryLiteral {
 
 private let ruleSet: RuleSet = [
     "punctuation" : nil,
+    "property" : .property,
+    "variable" : .property,
     "storage" : .keyword,
     "comment" : .comment,
     "string" : .string,
@@ -72,8 +74,6 @@ private let ruleSet: RuleSet = [
     "constant" : .number,
     "operator" : .call,
     "keyword" : .keyword,
-    "property" : .property,
-    "variable" : .property,
     "type" : .type,
     "preprocessor" : .preprocessing,
     "call": .call,
