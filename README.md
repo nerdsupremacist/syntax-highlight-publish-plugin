@@ -95,7 +95,7 @@ That's all you need to add support for that language on your site.
 
 Let's say for that you want to add support for Kotlin:
 
-```
+```swift
 import SyntaxHighlightPublishPlugin
 
 extension Grammar {
