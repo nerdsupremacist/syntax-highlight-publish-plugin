@@ -2,9 +2,9 @@
 
 Plugin to add syntax highlighting (for multiple languages) to your Publish Site, with the least amount of effort. 
 It currently supports defining Grammars with:
-- Syntax: A SwiftUI like DSL
-- TextMate Grammars
-- Splash Grammars
+- [Syntax](https://github.com/nerdsupremacist/Syntax): SwiftUI-like parser builder DSL
+- [TextMate](https://macromates.com/manual/en/language_grammars) Grammars
+- [Splash](https://github.com/JohnSundell/Splash) Grammars
 
 ## Installation
 ### Swift Package Manager
@@ -39,9 +39,11 @@ try MyPublishSite().publish(using: [
 ])
 ```
 
+<img src="https://github.com/nerdsupremacist/Syntax/raw/develop/logo.png" width="300" max-width="90%" alt="Syntax" />
+
 ### Syntax
 
-Syntax is a SwiftUI like parser builder DSL that you can use to define your custom Grammar structurally.
+[Syntax](https://github.com/nerdsupremacist/Syntax) is a SwiftUI-like parser builder DSL that you can use to define your custom Grammar structurally.
 For example this is how you would write a Parser that can parse the output of FizzBuzz:
 
 ```swift
@@ -108,9 +110,11 @@ try MyPublishSite().publish(using: [
 ])
 ```
 
+<img src="https://github.com/JohnSundell/Splash/raw/master/Images/Logo.png" width="300" max-width="90%" alt="Syntax" />
+
 ### Splash
 
-If you were already using Splash on your site before and put in the work to add a custom Splash Grammar. No problem. We can use that too:
+If you were already using [Splash](https://github.com/JohnSundell/Splash) on your site before and put in the work to add a custom Splash Grammar. No problem. We can use that too:
 
 ```swift
 import SyntaxHighlightPublishPlugin
