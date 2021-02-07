@@ -5,15 +5,14 @@ import PackageDescription
 
 let package = Package(
     name: "syntax-highlight-publish-plugin",
-    platforms: [.macOS(.v10_15)],
     products: [
         .library(name: "SyntaxHighlightPublishPlugin",
                  targets: ["SyntaxHighlightPublishPlugin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/nerdsupremacist/Syntax.git", .branch("develop")),
-        .package(url: "https://github.com/nerdsupremacist/syntax-highlight.git", .branch("main")),
-        .package(url: "https://github.com/nerdsupremacist/TextMate.git", .branch("main")),
+        .package(url: "https://github.com/nerdsupremacist/Syntax.git", from: "1.0.2"),
+        .package(url: "https://github.com/nerdsupremacist/syntax-highlight.git", from: "0.1.0"),
+        .package(url: "https://github.com/nerdsupremacist/TextMate.git", from: "0.1.0"),
         .package(url: "https://github.com/JohnSundell/Splash.git", from: "0.15.0"),
         .package(url: "https://github.com/JohnSundell/Publish.git", from: "0.7.0"),
     ],

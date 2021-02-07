@@ -77,36 +77,36 @@
         "package": "Syntax",
         "repositoryURL": "https://github.com/nerdsupremacist/Syntax.git",
         "state": {
-          "branch": "develop",
-          "revision": "f08328c666b84060f01196edfada793d02085623",
-          "version": null
+          "branch": null,
+          "revision": "d22c15727dda6e7150523cfc47cf5d0f81c85f7c",
+          "version": "1.0.2"
         }
       },
       {
         "package": "syntax-highlight",
         "repositoryURL": "https://github.com/nerdsupremacist/syntax-highlight.git",
         "state": {
-          "branch": "main",
-          "revision": "73944422ca83a633efc53574a57de23cbee511b3",
-          "version": null
+          "branch": null,
+          "revision": "61ea287164c6453925d7967f9d7fa6b236752e3d",
+          "version": "0.1.0"
         }
       },
       {
         "package": "SyntaxTree",
         "repositoryURL": "https://github.com/nerdsupremacist/SyntaxTree.git",
         "state": {
-          "branch": "main",
+          "branch": null,
           "revision": "e05df57b9482e8122b99c59d6285c3e14ccb5b2b",
-          "version": null
+          "version": "0.1.0"
         }
       },
       {
         "package": "TextMate",
         "repositoryURL": "https://github.com/nerdsupremacist/TextMate.git",
         "state": {
-          "branch": "main",
-          "revision": "130ad5b906b63acab02530eaa0ac692ce484caba",
-          "version": null
+          "branch": null,
+          "revision": "1d2289ff3097bf3f2c54381faf3996204a422c71",
+          "version": "0.1.0"
         }
       }
     ]
