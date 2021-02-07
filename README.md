@@ -7,8 +7,6 @@ It currently supports defining Grammars with:
 - Splash Grammars
 
 ## Installation
-
-## Installation
 ### Swift Package Manager
 
 You can install SyntaxHighlightPublishPlugin via [Swift Package Manager](https://swift.org/package-manager/) by adding the following line to your `Package.swift`:
